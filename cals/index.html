@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="display">
+      <input type="text" id="input" />
+      <button type="button" onclick="allclear()" class="button" id="allclear">
+        AC
+      </button>
+      <button type="button" onclick="clearone()" class="button" id="clear">
+        C
+      </button>
+      <button type="button" class="button" id="remainder">%</button>
+      <button type="button" class="button" id="divide">/</button>
+
+      <button type="button" onclick="fun(7)" class="button" id="seven">
+        7
+      </button>
+      <button type="button" onclick="fun(8)" class="button" id="eight">
+        8
+      </button>
+      <button type="button" onclick="fun(9)" class="button" id="nine">9</button>
+      <button type="button" class="button" id="multiply">X</button>
+      <button type="button" onclick="fun(4)" class="button" id="four">4</button>
+      <br />
+      <button type="button" onclick="fun(5)" class="button" id="five">5</button>
+      <button type="button" onclick="fun(6)" class="button" id="six">6</button>
+      <button type="button" class="button" id="minus">-</button>
+      <button type="button" onclick="fun(1)" class="button" id="one">1</button>
+      <button type="button" onclick="fun(2)" class="button" id="two">2</button>
+      <br /><button type="button" onclick="fun(3)" class="button" id="three">
+        3
+      </button>
+      <button type="button" class="button" id="addition">+</button>
+      <button type="button" onclick="fun('00')" class="button" id="twozero">
+        00
+      </button>
+      <button type="button" class="button" onclick="fun(0)" id="zero">0</button>
+      <button type="button" class="button" id="dot">.</button>
+      <button type="button" class="button" id="equalto">=</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

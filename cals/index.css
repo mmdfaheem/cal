@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#display{
+    background-color: black;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:16rem;
+    
+    justify-content: center;
+    margin:5rem auto;
+    
+    padding:0.5rem;
+}
+.button{
+    color:black;
+    /* background-color: white; */
+    
+    /* border:3px solid red; */
+    font-size:larger;
+    font-weight: bolder;
+    height: 3rem;
+    width:3rem;
+    margin:0.3rem;
+}
+.button:hover{
+    background-color: rgba(255, 255, 255, 0.850);
+}
+.button:active{
+    background-color: black;
+    color:white;
+}
+
+#input{
+    width:13.9rem;
+    height:3rem;
+    margin-top:0.5rem;
+    font-size:1.5rem;
+
+}
